@@ -23,9 +23,65 @@ header h1 {
   font-size: 3rem;
 }
 
-header a {
+a {
   color: #79f3d4;
   text-decoration: none;
   font-weight: 600;
   font-size: 1.2rem;
+}
+
+.video_component {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video {
+  margin: 0 auto;
+}
+
+video:focus {
+  outline: none;
+}
+
+.landscape_image {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.landscape_image h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 2rem 0;
+}
+
+.landscape_image h3 {
+  text-align: center;
+  padding: 1rem 0;
+  color: #808385;
+  font-size: 1.4rem;
+}
+
+.landscape_image img {
+  width: 100%;
+  margin: 0 aut
+  padding: 1rem;
+}
+
+.coming_soon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.coming_soon h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.coming_soon img {
+    padding: 2rem 0;
 }
